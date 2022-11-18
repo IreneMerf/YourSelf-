@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".Emergency">
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="413dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:srcCompat="@drawable/photo_2022_11_15_21_55_21" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="323dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView30"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/photo_2022_11_15_20_54_56" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_70_20221115152930" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="252dp"
+        android:layout_height="110dp"
+        android:text="Чрезвычайная ситуация обычно случается неожиданно, однако нужно всегда быть готовыми к ней:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FF5050"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView20"
+        app:layout_constraintEnd_toEndOf="@+id/imageView20"
+        app:layout_constraintHorizontal_bias="0.704"
+        app:layout_constraintStart_toStartOf="@+id/imageView20"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="266dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Что делать если началась гроза"
+        app:layout_constraintBottom_toTopOf="@+id/button13"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="261dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#03A9F4"
+        android:onClick="btn_Elevator"
+        android:text="Что делать если застрял в лифте"
+        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintEnd_toEndOf="@+id/imageView30"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="266dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Что делать если начался пожар"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="262dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Что нужно знать при походе в лес"
+        android:textColor="#FFFFFF"
+        android:onClick="btn_Forest"
+        app:layout_constraintBottom_toTopOf="@+id/button11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="315dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#FF5050"
+        android:text="Куда звонить при экстренном случае"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toStartOf="@+id/button12"
+        app:layout_constraintHorizontal_bias="0.984"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_70_20221115152937" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.188"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_70_20221115160026" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_70_20221115152953" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="262dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/photo_2022_11_15_20_34_05" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:onClick="Back"
+        android:text="Назад"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/imageView26"
+        app:layout_constraintHorizontal_bias="0.731"
+        app:layout_constraintStart_toStartOf="@+id/imageView26"
+        app:layout_constraintTop_toTopOf="@+id/imageView26" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

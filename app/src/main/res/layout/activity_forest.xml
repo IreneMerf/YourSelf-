@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Forest">
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="422dp"
+        android:layout_height="602dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31"
+        app:srcCompat="@drawable/photo_2022_11_15_22_07_11" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="262dp"
+        android:layout_height="89dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/photo_2022_11_15_20_34_05" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#2196F3"
+        android:onClick="Go_MainActivity"
+        android:text="Главное меню"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView32"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView42"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="345dp"
+        android:layout_height="260dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.696"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView49"
+        app:srcCompat="@drawable/photo_2022_11_15_21_28_12" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="352dp"
+        android:layout_height="189dp"
+        android:layout_marginTop="188dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView47"
+        app:srcCompat="@drawable/photo_2022_11_15_20_16_25" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="Как подготовиться к походу в лес?"
+        android:textColor="#FF3939"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView51"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="298dp"
+        android:layout_height="61dp"
+        android:text="1. Расскажите друзьям о том, что вы идёте в лес(по возможности не ходить в одиночку)"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView52"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="294dp"
+        android:layout_height="23dp"
+        android:text="2. Посмотрите прогноз погоды заранее"
+        app:layout_constraintBottom_toTopOf="@+id/textView53"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="298dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="48dp"
+        android:text="3. Запомните простейшие правила ориентирования в лесу"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView47"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.584"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="242dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="24dp"
+        android:text="Что нужно с собой взять?"
+        android:textColor="#FF3939"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.599"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView53" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="315dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="3dp"
+        android:text="Заряженный телефон, карту, воду, свисток, фонарь, часы, аптечку, мультитул, запас еды, спички, компас"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView53"
+        app:layout_constraintHorizontal_bias="0.963"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView54" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Если вы уже заблудились в лесу:"
+        android:textColor="#FF3939"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:text="Не следует выбираться из лесу ночью"
+        android:textColor="#FF3939"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView49"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.711"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="1. Остановитесь и успокойтесь"
+        android:textSize="13.5sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView58"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="339dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="4dp"
+        android:text="2.  Ищите линии  электропередач,  просеки, тропинки"
+        android:textSize="13.5sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView59"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.702"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="3. Следуйте вниз по течению реки, ручья"
+        android:textSize="13.5sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.37"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="319dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="4dp"
+        android:text="4. Прислушайтесь(вдруг слышно шум машин, лай собаки, и тд.)"
+        android:textSize="13.5sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView61"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="341dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="32dp"
+        android:text="Когда начинает темнеть лучше  займитесь обустройством места ночлега."
+        android:textSize="13.5sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView49"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Поход в лес"
+        android:textColor="#FF3939"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView47"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

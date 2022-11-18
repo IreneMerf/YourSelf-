@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Elevator">
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="262dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/photo_2022_11_15_20_34_05" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="Назад"
+        android:onClick="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.731"
+        app:layout_constraintStart_toStartOf="@+id/imageView51"
+        app:layout_constraintTop_toTopOf="@+id/imageView51" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="426dp"
+        android:layout_height="618dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/photo_2022_11_15_22_07_11" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="125dp"
+        android:layout_height="534dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView48"
+        app:layout_constraintEnd_toEndOf="@+id/imageView48"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/photo_2022_11_16_22_29_16" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="Застряли в лифте?"
+        android:textColor="#FF3939"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="96dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="64dp"
+        android:text="Не паникуйте и не пытайтесь нажимать все кнопки подряд"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView67"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="124dp"
+        android:layout_height="119dp"
+        android:layout_marginBottom="60dp"
+        android:text="Не пытайтесь разжать двери лифта и вылезти на этаж - это опасно для жизни"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView68"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="114dp"
+        android:layout_height="134dp"
+        android:layout_marginBottom="60dp"
+        android:text="Попробуйте вызвать диспетчера (по спец. кнопке) или позвоните кому-нибудь по телефону"
+        android:textAlignment="textStart"
+        android:textSize="14.5sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView69"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="109dp"
+        android:layout_height="121dp"
+        android:layout_marginBottom="44dp"
+        android:text="Если у вас нет мобильного телефона, то попробуйте громко звать на помощь"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView70"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="105dp"
+        android:layout_height="118dp"
+        android:layout_marginBottom="68dp"
+        android:text="В ожидании помощи снимите верхнюю одежду, если вам жарко"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView48"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="111dp"
+        android:layout_height="121dp"
+        android:layout_marginBottom="28dp"
+        android:text="Пейте воду( если она есть) маленькими глотками"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView71"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="105dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="40dp"
+        android:text="Сядьте на пол и вытяните ноги"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView48"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

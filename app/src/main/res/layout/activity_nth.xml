@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".NeedsToHave">
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="408dp"
+        android:layout_height="316dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button6"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/photo_2022_11_15_21_28_12" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="262dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/photo_2022_11_15_20_34_05" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="408dp"
+        android:layout_height="316dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/photo_2022_11_15_21_28_12" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="408dp"
+        android:layout_height="316dp"
+        android:layout_marginBottom="76dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/photo_2022_11_15_21_28_12" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="370dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="40dp"
+        android:text="Мы никогда не можем предугадать когда может случиться чрезвычайная ситуация, поэтому нужно быть всегда готовым. На такой случай было бы не плохо иметь где-то в зоне достягаемости:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#03A9F4"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="53dp"
+        android:layout_height="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button5"
+        app:srcCompat="@drawable/_70_20221115170559" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="300dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#03A9F4"
+        android:onClick="btnanAlarmingSuitcase"
+        android:text="Тревожный чемоданчик"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="360dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="272dp"
+        android:text="На случай если кому-то поблизости стало плохо, необходимо оказать первую помочь, на этот случай хорошо при себе иметь:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#03A9F4"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="300dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#03A9F4"
+        android:onClick="btnFirstAid"
+        android:text="Аптечку первой помощи"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView34"
+        app:layout_constraintStart_toEndOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="374dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="144dp"
+        android:text="У каждого гражданина, заботящемся о своём здоровье так же дома должна быть:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#03A9F4"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="300dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#03A9F4"
+        android:onClick="btnHomeFirstFid"
+        android:text="Домашняя аптечка"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.828"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="53dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="152dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/_70_20221115165911" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:onClick="Back_Htn"
+        android:backgroundTint="#2196F3"
+        android:text="Назад"
+        app:layout_constraintEnd_toEndOf="@+id/imageView19"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="@+id/imageView19"
+        app:layout_constraintTop_toTopOf="@+id/imageView19" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="53dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/button7"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/_70_20221115170847" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

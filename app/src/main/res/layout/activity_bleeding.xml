@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bleeding">
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="418dp"
+        android:layout_height="222dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/photo_2022_11_15_20_16_25" />
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="233dp"
+        android:layout_height="362dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView61"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/photo_2022_11_16_23_34_44" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="244dp"
+        android:layout_height="393dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/photo_2022_11_16_23_34_44" />
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="116dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView58"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/photo_2022_11_16_23_34_52" />
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView59"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/photo_2022_11_16_23_34_48" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="Назад"
+        android:onClick="Back"
+        app:layout_constraintEnd_toEndOf="@+id/imageView61"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toStartOf="@+id/imageView61"
+        app:layout_constraintTop_toTopOf="@+id/imageView61" />
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="262dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView43"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/photo_2022_11_15_20_34_05" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="Кровотечение?"
+        android:textColor="#FF3939"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="132dp"
+        android:layout_height="21dp"
+        android:text="В первую очередь:"
+        android:textColor="#FF3939"
+        app:layout_constraintBottom_toTopOf="@+id/textView75"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="146dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="39dp"
+        android:text="1. Надавите на рану, чтобы остановить или замедлить кровотечение."
+        app:layout_constraintEnd_toStartOf="@+id/textView75"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView52"
+        app:layout_constraintTop_toBottomOf="@+id/textView72" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="122dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="4dp"
+        android:text="2. Если кровотечение сильное, вызовите скорую"
+        app:layout_constraintEnd_toStartOf="@+id/textView76"
+        app:layout_constraintTop_toBottomOf="@+id/textView72" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="97dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="20dp"
+        android:text="3. Зажимайте рану пока не прибудет помощь"
+        app:layout_constraintEnd_toEndOf="@+id/imageView52"
+        app:layout_constraintTop_toBottomOf="@+id/textView72" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="212dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="56dp"
+        android:text="Кровотечение из носа:"
+        android:textColor="#FF3939"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView58" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="158dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="12dp"
+        android:text="Слабое кровотечение:"
+        android:textColor="#FF3939"
+        app:layout_constraintBottom_toTopOf="@+id/textView82"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.976"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="135dp"
+        android:layout_height="96dp"
+        android:text="1. Сожмите крылья носа, посоветуйте пострадавшему нагнуться вперед и дышать ртом"
+        android:textSize="13.9sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="142dp"
+        android:layout_height="129dp"
+        android:text="2. Не просите его отклониться назад или запрокинуть голову, кровь может попасть в трахею или желудок и вызвать рвоту"
+        android:textSize="13.5sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="215dp"
+        android:layout_height="73dp"
+        android:text="3. Если кровотечение не останавливается в течении 15-20 минут - вызовите скорую"
+        android:textSize="13.5sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView79" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="145dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="12dp"
+        android:text="1. Слабый порез или царапину промыть водой"
+        app:layout_constraintBottom_toTopOf="@+id/textView83"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="143dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="2dp"
+        android:text="2. Открытую рану не надо прижигать йодом и зеленкой. Можно - перекисью водорода"
+        android:textSize="13.5sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView84"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.978" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="75dp"
+        android:text="3. Наложить повязку"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView56"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

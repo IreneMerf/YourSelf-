@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="376dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21"
+        app:srcCompat="@drawable/photo_2022_11_15_20_21_51" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="381dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:srcCompat="@drawable/photo_2022_11_15_20_21_51" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="393dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/photo_2022_11_15_20_16_25" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="381dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView23"
+        app:srcCompat="@drawable/photo_2022_11_15_20_21_51" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="245dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#FF5050"
+        android:onClick="btn_nth"
+        android:text="Что нужно иметь каждому"
+        app:layout_constraintEnd_toEndOf="@+id/imageView24"
+        app:layout_constraintHorizontal_bias="0.809"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/imageView24" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="246dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#FF5050"
+        android:text="ЧС"
+        android:onClick="btnEmergency"
+        app:layout_constraintEnd_toEndOf="@+id/imageView23"
+        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintStart_toStartOf="@+id/imageView23"
+        app:layout_constraintTop_toTopOf="@+id/imageView23" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="244dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#FF5050"
+        android:text="Первая помощь"
+        android:onClick="btn_firstAid"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/imageView22"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/imageView22" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="86dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView21"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="@+id/imageView21"
+        app:layout_constraintTop_toTopOf="@+id/imageView21"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="67dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="36dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="YourSelf -"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#D32F2F"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView21"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="@+id/imageView21"
+        app:layout_constraintTop_toTopOf="@+id/imageView21" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
+        android:text="Твоя жизнь. Позаботься о своей жизни и своих близких!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FF5050"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView21"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="@+id/imageView21"
+        app:layout_constraintTop_toTopOf="@+id/imageView21" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="44dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView22"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/imageView22"
+        app:srcCompat="@drawable/_70_20221115165911" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="44dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView23"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="@+id/imageView23"
+        app:layout_constraintTop_toTopOf="@+id/imageView23"
+        app:srcCompat="@drawable/_70_20221115160026" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="44dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView24"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/imageView24"
+        app:srcCompat="@drawable/_70_20221115170559" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="262dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/photo_2022_11_15_20_34_05" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:onClick="Exit"
+        android:backgroundTint="#2196F3"
+        android:text="Выход"
+        app:iconTint="#2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.747"
+        app:layout_constraintStart_toStartOf="@+id/imageView25"
+        app:layout_constraintTop_toTopOf="@+id/imageView25" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

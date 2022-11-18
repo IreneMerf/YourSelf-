@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFirstAidKit">
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="418dp"
+        android:layout_height="630dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316"
+        app:srcCompat="@drawable/photo_2022_11_15_22_07_11" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="11: Успокоительное"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView43"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="3: Таблетки для желудка и кишечника"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView48"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.622"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="324dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="4dp"
+        android:text="1: Перевязочные материалы(Бинты, пластыри)"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView46"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="6: Болеутоляющие"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView44"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="8: Ножницы"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView49"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="7: Сердечно-сосудистые средства"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView39"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="5: Таблетки от аллергии"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView43"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:onClick="Back_Hfak"
+        android:text="Назад"
+        app:layout_constraintEnd_toEndOf="@+id/imageView45"
+        app:layout_constraintHorizontal_bias="0.731"
+        app:layout_constraintStart_toStartOf="@+id/imageView45"
+        app:layout_constraintTop_toTopOf="@+id/imageView45" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="331dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView42"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView43"
+        app:layout_constraintVertical_bias="0.153"
+        app:srcCompat="@drawable/photo_2022_11_15_20_16_25" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="265dp"
+        android:layout_height="71dp"
+        android:text="Что желательно должно быть у каждого в домашней аптечке:"
+        android:textColor="#FF3939"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView44"
+        app:layout_constraintEnd_toEndOf="@+id/imageView44"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/imageView44"
+        app:layout_constraintTop_toTopOf="@+id/imageView44" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="2: Градусник"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="10: Таблетки от простуды"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="4: Перекись,Йод,Зелёнка"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView45"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.273"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="9: Танометр"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView47"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="262dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView43"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/photo_2022_11_15_20_34_05" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="78dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="56dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView43"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_70_20221115170847" />
+</androidx.constraintlayout.widget.ConstraintLayout>
